@@ -4,16 +4,16 @@ import "./home.scss";
 import List from "../../components/list/List";
 
 const Home = () => {
-    return (
-        <div className="home">
-            <Navbar />
-            <Featured/>
-            <List/>
-            <List/>
-            <List/>
-            <List/>
-        </div>
-    );
+  return (
+    <div className="home">
+      <Navbar />
+      <Featured/>
+      <List/>
+      <List/>
+      <List/>
+      <List/>
+    </div>
+  );
 };
 
-export default Home; 
+export default Home;
